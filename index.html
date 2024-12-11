@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=favorite,home,search,settings" rel="stylesheet" />
+    <script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
+    <title>TWKLOGISTICS</title>
+</head>
+<body>
+    <header class="header">
+        <input id="open-menu" type="checkbox">
+        <label for="open-menu" class="header__open-menu"><span class="iconify icon-menu" data-icon="material-symbols:menu" data-inline="false"></span></label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="img/logo_TWKLOGISTICS_blanco.png" alt="Logo de TWKLOGISTICS">
+        </div>
+        <div class="header__search-bar-container">
+            <input type="text" placeholder="Buscar..." class="header__search-bar">
+            <span class="material-symbols-outlined">search</span>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link link-one">Inicio</a></li>
+                <li class="header__nav-item"><a href="Nosotros/index.html" class="header__nav-link link-three">Nosotros</a></li>
+                <li class="header__nav-item"><a href="Servicios/index.html" class="header__nav-link link-two">Servicios</a></li>
+                <li class="header__nav-item item--login"><a href="Ingresar/index.html" class="header__nav-link link-four">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__image-background"></div>
+        <div class="main__wrapper">
+            <div class="main__content">
+                <h1>Máxima Calidad <span class="main__text-ligth">en</span> Telecomunicaciones</h1>
+            </div>
+            <div class="main__content-box">
+                <div class="main__content">
+                    <h2>Tecnologia <span class="main__text-ligth">de</span> punta</h2>
+                </div>
+                <div class="main__content">
+                    <h2>Personal <span class="main__text-ligth">con</span> experiencia</h2>
+                </div>
+            </div>
+        </div>
+        <a href="Nosotros/index.html" class="main__link">Conócenos</a>
+    </main>
+    <section class="services">
+        <div class="services__title">
+            <h2>Conoce <span class="services__text-ligth">los</span> diferentes servicios <span class="services__text-ligth">que</span> ofrecemos</h2>
+        </div>
+        <div class="services__grid">
+            <div class="services__grid-item"></div>
+            <div class="services__grid-item"></div>
+            <div class="services__grid-item"></div>
+            <div class="services__grid-item"></div>
+            <div class="services__grid-item"></div>
+            <div class="services__grid-item"></div>
+        </div>
+    </section>
+    <section class="technologies">
+        <div class="technologies__title">
+            <h2>Tecnologias que manejamos</h2>
+        </div>
+        <div class="flexbox">
+            <div class="technologies__grid">
+                <div class="technologies__grid-item"></div>
+                <div class="technologies__grid-item"></div>
+                <div class="technologies__grid-item"></div>
+                <div class="technologies__grid-item"></div>
+            </div>
+            <div class="technologies__info-container">
+                <div class="technologies__info-title">
+                    <h2>Información</h2>
+                </div>
+                <div class="technologies__info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusamus a iste. Dolorem aut minus ipsam natus neque eum illum ducimus amet id debitis dicta, rem corrupti, adipisci animi blanditiis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, impedit maiores harum a ipsa, velit voluptatem eligendi quidem aliquam earum, dolore eaque odit quam laudantium ducimus iste corporis sequi quos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="questions__text-container">
+            <div class="questions__text">
+                <h3>¿ Quienes sómos ?</h3>
+            </div>
+            <div class="questions__text">
+                <h3>¿ Por qué sómos tu mejor opcion ?</h3>
+            </div>
+            <div class="questions__text">
+                <h3>¿ Deseas usar nuestros servicios ?</h3>
+            </div>
+            <p>Más información<a href="#" class="questions__link">Aquí</a>
+        </div>
+        </p>
+        <div class="last-info__symbols">
+        </div>
+        <div class="questions__wrapper">
+            <h3 class="questions__wrapper-title">Texto <span class="questions__ligth-text">para</span> completar <span class="questions__ligth-text">la</span> seccion </h3>
+            <p>Más Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi nesciunt tenetur autem iste ex odit id non veniam repellat eius dicta libero laboriosam pariatur dolore accusantium possimus, consequuntur ipsam sunt!</p>
+        </div>
+    </section>
+    <div class="form-container">
+        <h2 class="form-container__title">¿ Te gusta lo que hacemos o tienes alguna duda ?</h2>
+        <form class="form" action="#">
+            <h3>Comentanos tus inquietudes</h3>
+            <div class="form__box-input box-1">
+                <span class="iconify icon-form" data-icon="material-symbols:person" data-inline="false"></span>
+                <input type="text" id="user-name" required>
+                <label for="user-name">Nombre</label>
+            </div>
+            <div class="form__box-input box-2">
+                <span class="iconify icon-form" data-icon="material-symbols:mail" data-inline="false"></span>
+                <input type="email" id="user-email" required>
+                <label for="user-email">E-mail</label>
+            </div>
+            <textarea id="comment-area" placeholder="Dinos algo..." required></textarea>
+            <button type="submit" class="form__btn-send">Enviar</button>
+            <div class="form__valid"></div>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer__main-container">
+            <div class="footer__logo-container">
+                <img class="footer__logo" src="img/logo_TWKLOGISTICS_blanco.png" alt="Logo de TWKLOGISTICS">
+                <div class="footer__social">
+                    <a href="#">
+                        <span class="iconify icon-instagram" data-icon="mdi:instagram" data-inline="false"></span>
+                    </a>
+                    <a href="#">
+                        <span class="iconify icon-linkedin" data-icon="mdi:linkedin" data-inline="false"></span>
+                    </a>
+                    <a href="#">
+                        <span class="iconify icon-facebook" data-icon="ic:baseline-facebook" data-inline="false"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__info">
+                <h3 class="footer__info-title">Información adicional</h3>
+                <p class="footer__info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quaerat accusamus vel non sint a sed laboriosam, amet similique maiores earum, incidunt repudiandae consequuntur ullam doloremque quia ipsam ea sit. Un poco mas de lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <h4>Contáctanos</h4>
+        <div class="footer__contact-container">
+            <div class="footer__contact-email">
+                <a href="mailto:ejemplo@twklogistics.com">ejemplo@twcatlogistic.com</a>
+                <span class="iconify icon-email" data-icon="material-symbols:mail" data-inline="false"></span>
+            </div>
+            <div class="footer__contact-number">
+                <a href="tel:01000909090">01000909090</a>
+                <span class="iconify icon-phone" data-icon="ic:baseline-phone" data-inline="false"></span>
+            </div>
+        </div>
+        <p class="footer__copy">&copy;2024 TWKLOGISTICS |<br> Todos los derechos reservados</p>
+    </footer>
+
+    <script src="code.js"></script>
+</body>
+</html>

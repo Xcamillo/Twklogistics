@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=favorite,home,search,settings" rel="stylesheet"/>
+    <script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
+    <title>Ingreso - TWKLOGISTICS</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo-container">
+            <img src="../img/logo_TWKLOGISTICS_blanco.png" alt="Logo de TWKLOGISTICS blanco" class="header__logo">
+        </div>
+        <a href="../index.html" class="header__link">Inicio<span class="iconify icon-home" data-icon="material-symbols:home" data-inline="false"></span></a>
+    </header>
+    <main class="main">
+        <form class="form">
+            <h1 class="form__title">Ingreso Trabajadores</h1>
+            <div class="form__input-box box-1">
+                <input type="number" id="form-document" required>
+                <label for="form-document">No° Documento</label>
+                <span class="iconify icon-form" data-icon="material-symbols:person" data-inline="false"></span>
+            </div>
+            <div class="form__input-box box-2">
+                <input type="password" id="form-password" required>
+                <label for="form-password">Contraseña</label>
+                <span class="iconify icon-form" data-icon="uis:padlock" data-inline="false"></span>
+            </div>
+            <a href="#">¿Olvidó la contraseña?</a>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
